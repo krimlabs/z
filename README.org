@@ -11,7 +11,7 @@ They had an opening listed on Angel Co and their primary stack: Clojure, Clojure
 I applied for the job but the didn't respond, but on the flip side, I was introduced to the Zettlekasten Cult.
 
 ** What is Zettlekasten?
-It's a technique to link analog ideas using a special sequence. It was originally an analog system.
+It's a technique to link ideas using a special sequence. It was originally an analog system.
 
 ** Why Zettlekasten makes sense?
 I take notes, a lot of them and I have tried a ton of products. If I see a notes app, I download it.
@@ -40,13 +40,17 @@ These added features lead to a personal knowledge graph. A Google for your brain
 No and yes. There are numerous Zettlekasten tools. But Roam seems to be the best in terms of implementation and ease of use.
 Other significant alternatives are:
 
-| Tool       | Website | Open Source? | Format      |
-|------------+---------+--------------+-------------|
-| Workflowy  |         | No           | Propreitory |
-| TiddlyWiki |         | No           | HTML        |
-| Athens     |         | Yes          | ?           |
-| Neuron     |         | Yes          | Markdown    |
-| Org Roam   |         | Yest         | Org         |
+| Tool       | Website | Open Source? | Format             |
+|------------+---------+--------------+--------------------|
+| Workflowy  |         | No           | Propreitory        |
+| TiddlyWiki |         | No           | HTML               |
+| Athens     |         | Yes          | Datoms/ Plain text |
+| Neuron     |         | Yes          | Markdown           |
+| Org Roam   |         | Yes          | Org                |
+| Neuron     |         | Yes          | Markdown           |
+| Zettledeft |         | Yes          | Org                |
+| Dynalist   |         | ?            | ?                  |
+
 
 This list is not comprehensive check this resource: https://www.reddit.com/r/Zettelkasten/wiki/softwarecomparison
 
@@ -66,14 +70,26 @@ This list is not comprehensive check this resource: https://www.reddit.com/r/Zet
   - This question is two fold, firstly should I have just one database for my personal and public life, because ideas and people overlap or
   - Should I have different databases for each, essentially bringing back the problems related to silos
   - And if my life is in a graph, how do I ensure the security. Something like GPG will not be feasible because digital Zettlekasten essentially needs access to contents of a note.
+  - Ideally, there should be a way to mark some nodes as private.
+
+- Publishing
+  - Just like referrring back to previous notes helps me build context, publishing and getting feed back yields a new perspective
+  - My friend Shubham Goel pointed out that, "A lot of people wanted public boards for collaborating" on <2020-05-07 Thu>
 
 ** Will I build a tool?
 Maybe. I want to sit on this idea for a few months and wait for someone to build something. Athens and Org Roam look promising.
 
+In the end, it's just not enought to make a clone. An high quality open source clone of a mature project is a value addition, according to Anand,
+but if Roam, or Athens or Org Roam end up doing well, I'll be happy to stick to one of them.
 
-
-
-
-
-
+** Curiosity is the devil
+- Is there a Zettle equivalent for photos?
+** Inspirations
+|--------------------------------------------------------------------------------------------+---------------------------------------------------------------|
+| Notes                                                                                      | Site                                                          |
+|--------------------------------------------------------------------------------------------+---------------------------------------------------------------|
+| Wow! I like how the pages open on top of each other, also the rich previews are kinda neat | https://notes.andymatuschak.org/                              |
+| This twitter thread talks about information in context                                     | https://twitter.com/andy_matuschak/status/1202663202997170176 |
+| Transformational tools for thought                                                         | https://numinous.productions/ttft/                            |
+|--------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 
