@@ -1,0 +1,79 @@
+#+TITLE: Incubator for a Zettlekasten Tool
+#+AUTHOR: Shivek Khurana
+#+DATE: <2020-05-07 Thu>
+#+BEGIN_QUOTE
+ACFYT
+#+END_QUOTE
+
+A few weeks ago, I found Roam Research while searching for a Clojure Job.
+They had an opening listed on Angel Co and their primary stack: Clojure, ClojureScript, React and Datomic was same as my primary stack.
+
+I applied for the job but the didn't respond, but on the flip side, I was introduced to the Zettlekasten Cult.
+
+** What is Zettlekasten?
+It's a technique to link analog ideas using a special sequence. It was originally an analog system.
+
+** Why Zettlekasten makes sense?
+I take notes, a lot of them and I have tried a ton of products. If I see a notes app, I download it.
+
+Over the years, my goto editors have changed from Google Docs to Google Keep to Markdown to Notion to iCloud Notes.
+As of now, I'm trying to switch to org-mode, because Emacs is my primary text editor.
+
+The problem with all notes app is that the information recorded exists in silos. If I wrote something about a meditation on anger today,
+I might not be able to recall it afte two months, when I'm meditating on anger again.
+
+Most note-taking apps are page based, however, our brain is a graph. Our brain links information but it's hard
+to link pages (that's perhaps the reason why we have only one search engine).
+
+Zettlekasten is an analog technique to links notes, and Roam Research is one of the best digital implementations.
+
+Linking ideas makes it easy to generate new ones.
+
+** What is Roam?
+For me, it seems to be a text editor with two special features:
+1. It lets you make bi-directional links to ideas
+2. It lets you edit your notes like you'd edit an S-Expression, unlike a page
+
+These added features lead to a personal knowledge graph. A Google for your brain if you'd call it.
+
+** Is Roam a monoply?
+No and yes. There are numerous Zettlekasten tools. But Roam seems to be the best in terms of implementation and ease of use.
+Other significant alternatives are:
+
+| Tool       | Website | Open Source? | Format      |
+|------------+---------+--------------+-------------|
+| Workflowy  |         | No           | Propreitory |
+| TiddlyWiki |         | No           | HTML        |
+| Athens     |         | Yes          | ?           |
+| Neuron     |         | Yes          | Markdown    |
+| Org Roam   |         | Yest         | Org         |
+
+This list is not comprehensive check this resource: https://www.reddit.com/r/Zettelkasten/wiki/softwarecomparison
+
+** My problems with Roam and Zettlekasten Techniques
+- It needs a certain discipline to write notes in a way that they can become nodes in a knowledge graph
+  - I have seen multiple people saying that, "I write while asking myself the question that in what context would I like to review this note in future"
+- There is no way to import my existing juice
+- What happens if Roam is no more? Will my knowledge graph stay stuck in a propreitory format?
+  - It's a problem similar to Word or PDF. Propreitory formats are not for me.
+- It's hard if not impossible to take notes on Mobile
+  - It's a fact that I don't have a computer all the time, that's probably the reason behind massive popularity of things like Google Keep
+- Costs?
+  - I pay next to 0 USD for my current setup. Cost was one of the reasons I stopped using Notion.
+- Open source and free?
+  - This is a tough question.
+- Security and Privacy
+  - This question is two fold, firstly should I have just one database for my personal and public life, because ideas and people overlap or
+  - Should I have different databases for each, essentially bringing back the problems related to silos
+  - And if my life is in a graph, how do I ensure the security. Something like GPG will not be feasible because digital Zettlekasten essentially needs access to contents of a note.
+
+** Will I build a tool?
+Maybe. I want to sit on this idea for a few months and wait for someone to build something. Athens and Org Roam look promising.
+
+
+
+
+
+
+
+
