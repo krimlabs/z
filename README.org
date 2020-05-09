@@ -1,6 +1,9 @@
 #+TITLE: Incubator for a Zettlekasten Tool
 #+AUTHOR: Shivek Khurana
+#+URL: https://github.com/krimlabs/z
 #+DATE: <2020-05-07 Thu>
+
+#+BEGIN_QUOTE
 ACFYT
 #+END_QUOTE
 
