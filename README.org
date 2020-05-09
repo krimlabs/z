@@ -1,14 +1,8 @@
 #+TITLE: Incubator for a Zettlekasten Tool
 #+AUTHOR: Shivek Khurana
 #+DATE: <2020-05-07 Thu>
-#+BEGIN_QUOTE
 ACFYT
 #+END_QUOTE
-
-A few weeks ago, I found Roam Research while searching for a Clojure Job.
-They had an opening listed on Angel Co and their primary stack: Clojure, ClojureScript, React and Datomic was same as my primary stack.
-
-I applied for the job but the didn't respond, but on the flip side, I was introduced to the Zettlekasten Cult.
 
 ** What is Zettlekasten?
 It's a technique to link ideas using a special sequence. It was originally an analog system.
@@ -71,10 +65,14 @@ This list is not comprehensive check this resource: https://www.reddit.com/r/Zet
   - Should I have different databases for each, essentially bringing back the problems related to silos
   - And if my life is in a graph, how do I ensure the security. Something like GPG will not be feasible because digital Zettlekasten essentially needs access to contents of a note.
   - Ideally, there should be a way to mark some nodes as private.
-
 - Publishing
   - Just like referrring back to previous notes helps me build context, publishing and getting feed back yields a new perspective
   - My friend Shubham Goel pointed out that, "A lot of people wanted public boards for collaborating" on <2020-05-07 Thu>
+- No emoji support
+
+** Features in an ideal world
+- Being able to marks parts of tree as private
+- Ability to merge tags and pages
 
 ** Will I build a tool?
 Maybe. I want to sit on this idea for a few months and wait for someone to build something. Athens and Org Roam look promising.
@@ -91,5 +89,38 @@ but if Roam, or Athens or Org Roam end up doing well, I'll be happy to stick to 
 | Wow! I like how the pages open on top of each other, also the rich previews are kinda neat | https://notes.andymatuschak.org/                              |
 | This twitter thread talks about information in context                                     | https://twitter.com/andy_matuschak/status/1202663202997170176 |
 | Transformational tools for thought                                                         | https://numinous.productions/ttft/                            |
+| This person is trying something with python                                                | https://beepb00p.xyz/exobrain/exobrain.html                                                                     |
 |--------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 
+** In an ideal world <2020-05-08 Fri 19:22>
+
+- I don't want date based notes or journal entries, our brains don't differentiate between time and space 
+  - The note taking system should also follow this convention
+    - One single heirarch segregated by meta data
+    - Just like regions of brain constitute a particular function, but indvidual neurons are indistinguishable, all notes should be written down in the same format and the magic should happen in links
+  - However, I'd like the note to have a timestamp as meta
+  - So a file name like <uuid>.md
+    - With the fields: CREATED_AT, TITLE and FILETAGS
+- Org mode is pretty cool, but it's nothing without emacs
+
+** Around the web
+*** https://news.ycombinator.com/item?id=23117876
+infogulch 5 hours ago [-]
+#+BEGIN_QUOTE
+What I'm missing the most from it is self-hosting, large file support, full point-in-time history, and programmatic access. I want it to be self-hosted because I don't want to lose my "second brain" just because some company couldn't find a viable business model and went belly up 20 years from now. I want large file support so I can put everything in my life in it: pictures, videos, pdfs, web page archive files, source code etc and I don't want to pay uber-$$$ to store huge files in their cloud. And I'd like programmatic access so I can make my own additions. For example, every link/bookmark I add could download the webpage and cache it so I can search its content and so it's not lost when the website changes owners. 
+#+END_QUOTE
+
+gatleon 5 hours ago [-]
+#+BEGIN_QUOTE
+I've been using Roam daily for the last month. What I like about Roam is the markdown, the ease of creating bidirectional links, and the automatic daily notes. The daily notes feature particularly eliminates friction for me. I just start writing.
+What I don't like about Roam is its slow load time. Also writing does not feel snappy enough - if that makes any sense. I feel a slight delay at times between typing a key and seeing the character on screen. Every time that happens I like Roam a little less. I've never experienced that with an app like iaWriter, and as a result, even for all its lack of features, every time I use iaWriter I like it a little more.
+
+I think what Roam is missing for me, besides improving the writing performance, is a weekly email digest somehow summarizing my notes. This could use the bidirectional links and give me a quick overview of what I wrote for the week. That would help improve my memory and be more introspective. 
+#+END_QUOTE
+
+iamben
+#+BEGIN_QUOTE
+I wish more of these note taking apps were fully encrypted. I know RR can encrypt parts of notes, but it's not the same.
+
+It's probably paranoia, but if I'm journaling my life, business ideas, thoughts on contacts - I just want it to be encrypted on my devices before it goes into the cloud. I want each device to sync and decrypt locally. 
+#+END_QUOTE
