@@ -7,10 +7,10 @@
 ACFYT
 #+END_QUOTE
 
-** What is Zettlekasten?
+* What is Zettlekasten?
 It's a technique to link ideas using a special sequence. It was originally an analog system.
 
-** Why Zettlekasten makes sense?
+* Why Zettlekasten makes sense?
 I take notes, a lot of them and I have tried a ton of products. If I see a notes app, I download it.
 
 Over the years, my goto editors have changed from Google Docs to Google Keep to Markdown to Notion to iCloud Notes.
@@ -26,32 +26,33 @@ Zettlekasten is an analog technique to links notes, and Roam Research is one of 
 
 Linking ideas makes it easy to generate new ones.
 
-** What is Roam?
+* What is Roam?
 For me, it seems to be a text editor with two special features:
 1. It lets you make bi-directional links to ideas
 2. It lets you edit your notes like you'd edit an S-Expression, unlike a page
 
 These added features lead to a personal knowledge graph. A Google for your brain if you'd call it.
 
-** Is Roam a monoply?
+* Is Roam a monoply?
 No and yes. There are numerous Zettlekasten tools. But Roam seems to be the best in terms of implementation and ease of use.
 Other significant alternatives are:
-
-| Tool       | Website | Open Source? | Format             |
-|------------+---------+--------------+--------------------|
-| Workflowy  |         | No           | Propreitory        |
-| TiddlyWiki |         | No           | HTML               |
-| Athens     |         | Yes          | Datoms/ Plain text |
-| Neuron     |         | Yes          | Markdown           |
-| Org Roam   |         | Yes          | Org                |
-| Neuron     |         | Yes          | Markdown           |
-| Zettledeft |         | Yes          | Org                |
-| Dynalist   |         | ?            | ?                  |
-
+|------------+---------------------------------+--------------+--------------------+--------------|
+| Tool       | Website                         | Open Source? | Format             | Notes        |
+|------------+---------------------------------+--------------+--------------------+--------------|
+| Workflowy  | https://workflowy.com/          | No           | Propreitory        |              |
+| TiddlyWiki | https://tiddlywiki.com/         | No           | HTML               |              |
+| Athens     |                                 | Yes          | Datoms/ Plain text |              |
+| Neuron     |                                 | Yes          | Markdown           |              |
+| Org Roam   |                                 | Yes          | Org                |              |
+| Neuron     |                                 | Yes          | Markdown           |              |
+| Zettledeft |                                 | Yes          | Org                |              |
+| Dynalist   |                                 | ?            | ?                  |              |
+| Remnote    | https://www.remnote.io/homepage | ?            | ?                  | Built at MIT |
+|------------+---------------------------------+--------------+--------------------+--------------|
 
 This list is not comprehensive check this resource: https://www.reddit.com/r/Zettelkasten/wiki/softwarecomparison
 
-** My problems with Roam and Zettlekasten Techniques
+* My problems with Roam and Zettlekasten Techniques
 - It needs a certain discipline to write notes in a way that they can become nodes in a knowledge graph
   - I have seen multiple people saying that, "I write while asking myself the question that in what context would I like to review this note in future"
 - There is no way to import my existing juice
@@ -73,19 +74,19 @@ This list is not comprehensive check this resource: https://www.reddit.com/r/Zet
   - My friend Shubham Goel pointed out that, "A lot of people wanted public boards for collaborating" on <2020-05-07 Thu>
 - No emoji support
 
-** Features in an ideal world
+* Features in an ideal world
 - Being able to marks parts of tree as private
 - Ability to merge tags and pages
 
-** Will I build a tool?
+* Will I build a tool?
 Maybe. I want to sit on this idea for a few months and wait for someone to build something. Athens and Org Roam look promising.
 
 In the end, it's just not enought to make a clone. An high quality open source clone of a mature project is a value addition, according to Anand,
 but if Roam, or Athens or Org Roam end up doing well, I'll be happy to stick to one of them.
 
-** Curiosity is the devil
+* Curiosity is the devil
 - Is there a Zettle equivalent for photos?
-** Inspirations
+* Inspirations
 |--------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 | Notes                                                                                      | Site                                                          |
 |--------------------------------------------------------------------------------------------+---------------------------------------------------------------|
@@ -95,7 +96,7 @@ but if Roam, or Athens or Org Roam end up doing well, I'll be happy to stick to 
 | This person is trying something with python                                                | https://beepb00p.xyz/exobrain/exobrain.html                                                                     |
 |--------------------------------------------------------------------------------------------+---------------------------------------------------------------|
 
-** In an ideal world <2020-05-08 Fri 19:22>
+* In an ideal world <2020-05-08 Fri 19:22>
 
 - I don't want date based notes or journal entries, our brains don't differentiate between time and space 
   - The note taking system should also follow this convention
@@ -106,8 +107,8 @@ but if Roam, or Athens or Org Roam end up doing well, I'll be happy to stick to 
     - With the fields: CREATED_AT, TITLE and FILETAGS
 - Org mode is pretty cool, but it's nothing without emacs
 
-** Around the web
-*** https://news.ycombinator.com/item?id=23117876
+* Around the web
+** https://news.ycombinator.com/item?id=23117876
 infogulch 5 hours ago [-]
 #+BEGIN_QUOTE
 What I'm missing the most from it is self-hosting, large file support, full point-in-time history, and programmatic access. I want it to be self-hosted because I don't want to lose my "second brain" just because some company couldn't find a viable business model and went belly up 20 years from now. I want large file support so I can put everything in my life in it: pictures, videos, pdfs, web page archive files, source code etc and I don't want to pay uber-$$$ to store huge files in their cloud. And I'd like programmatic access so I can make my own additions. For example, every link/bookmark I add could download the webpage and cache it so I can search its content and so it's not lost when the website changes owners. 
@@ -127,32 +128,36 @@ I wish more of these note taking apps were fully encrypted. I know RR can encryp
 
 It's probably paranoia, but if I'm journaling my life, business ideas, thoughts on contacts - I just want it to be encrypted on my devices before it goes into the cloud. I want each device to sync and decrypt locally. 
 #+END_QUOTE
+** youtube interview: https://www.youtube.com/watch?v=Hw2kJF_kxjE
+Patrick Burridge
+2 months ago
+you cannot create meaningful strides in the furthering of human knowledge building upon a closed source tool written by a single opinionated developer.
 
-** TODO Restructure this into facts vs opinions
-*** A lot of what I'm collecting is collection of both
-** TODO Post about why our thought process is incompatible with publishing media
-*** Our brain is a graph, but pages are not
-*** File names and folder structure doesn't really matter
-*** TODO Files should be treated like regions of brain :protocol:whitepaper:
-**** Like prefrontal cortex is responsible for intellectual processing and the medula oblongate region helps with instincts
-***** But some neurons in the regions might be connected
-**** A collection of neurons, and each block in a file should be treated like a neuron
-**** Over time connections would emerge
-**** Each list item is a neuron, each child is neuron it links to
-**** Lists and sub lists over paragraphs
-***** Lists are like graphs or trees
-***** Paragraphs don't have any structure, this is something Roam gets right
-***** Each list item should record temporal data
-**** The pr-org-reitory format
-***** Although org-mode is a plain text format, it cant't be used without emacs
-***** Similarly, even if you are able to export from Roam, you can't really use it
-****** If your notes are objects in an s3 bucket
-****** Roam is EC2, Just like emacs is ec2 for org
-***** This gives a false sense of openness
-****** And makes a great case for open source
-** TODO Write about Sharing vs Publishing
-*** Notion like apps that follow the page model of note taking allow for easy sharing and publishing (and encryption)
-*** But interlinked graphs make it hard
-**** Which parts of the note should be shared
-**** How to get e2e encryption
-**** Maintaing multiple databases kills the purpose of knowledge graphs
+* TODO Restructure this into facts vs opinions
+** A lot of what I'm collecting is collection of both
+* TODO Post about why our thought process is incompatible with publishing media
+** Our brain is a graph, but pages are not
+** File names and folder structure doesn't really matter
+** TODO Files should be treated like regions of brain :protocol:whitepaper:
+*** Like prefrontal cortex is responsible for intellectual processing and the medula oblongate region helps with instincts
+**** But some neurons in the regions might be connected
+*** A collection of neurons, and each block in a file should be treated like a neuron
+*** Over time connections would emerge
+*** Each list item is a neuron, each child is neuron it links to
+*** Lists and sub lists over paragraphs
+**** Lists are like graphs or trees
+**** Paragraphs don't have any structure, this is something Roam gets right
+**** Each list item should record temporal data
+*** The pr-org-reitory format
+**** Although org-mode is a plain text format, it cant't be used without emacs
+**** Similarly, even if you are able to export from Roam, you can't really use it
+***** If your notes are objects in an s3 bucket
+***** Roam is EC2, Just like emacs is ec2 for org
+**** This gives a false sense of openness
+***** And makes a great case for open source
+* TODO Write about Sharing vs Publishing
+** Notion like apps that follow the page model of note taking allow for easy sharing and publishing (and encryption)
+** But interlinked graphs make it hard
+*** Which parts of the note should be shared
+*** How to get e2e encryption
+*** Maintaing multiple databases kills the purpose of knowledge graphs
