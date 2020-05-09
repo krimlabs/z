@@ -127,3 +127,32 @@ I wish more of these note taking apps were fully encrypted. I know RR can encryp
 
 It's probably paranoia, but if I'm journaling my life, business ideas, thoughts on contacts - I just want it to be encrypted on my devices before it goes into the cloud. I want each device to sync and decrypt locally. 
 #+END_QUOTE
+
+** TODO Restructure this into facts vs opinions
+*** A lot of what I'm collecting is collection of both
+** TODO Post about why our thought process is incompatible with publishing media
+*** Our brain is a graph, but pages are not
+*** File names and folder structure doesn't really matter
+*** TODO Files should be treated like regions of brain :protocol:whitepaper:
+**** Like prefrontal cortex is responsible for intellectual processing and the medula oblongate region helps with instincts
+***** But some neurons in the regions might be connected
+**** A collection of neurons, and each block in a file should be treated like a neuron
+**** Over time connections would emerge
+**** Each list item is a neuron, each child is neuron it links to
+**** Lists and sub lists over paragraphs
+***** Lists are like graphs or trees
+***** Paragraphs don't have any structure, this is something Roam gets right
+***** Each list item should record temporal data
+**** The pr-org-reitory format
+***** Although org-mode is a plain text format, it cant't be used without emacs
+***** Similarly, even if you are able to export from Roam, you can't really use it
+****** If your notes are objects in an s3 bucket
+****** Roam is EC2, Just like emacs is ec2 for org
+***** This gives a false sense of openness
+****** And makes a great case for open source
+** TODO Write about Sharing vs Publishing
+*** Notion like apps that follow the page model of note taking allow for easy sharing and publishing (and encryption)
+*** But interlinked graphs make it hard
+**** Which parts of the note should be shared
+**** How to get e2e encryption
+**** Maintaing multiple databases kills the purpose of knowledge graphs
