@@ -36,19 +36,18 @@ These added features lead to a personal knowledge graph. A Google for your brain
 * Is Roam a monoply?
 No and yes. There are numerous Zettlekasten tools. But Roam seems to be the best in terms of implementation and ease of use.
 Other significant alternatives are:
-|------------+---------------------------------+--------------+--------------------+--------------|
-| Tool       | Website                         | Open Source? | Format             | Notes        |
-|------------+---------------------------------+--------------+--------------------+--------------|
-| Workflowy  | https://workflowy.com/          | No           | Propreitory        |              |
-| TiddlyWiki | https://tiddlywiki.com/         | No           | HTML               |              |
-| Athens     |                                 | Yes          | Datoms/ Plain text |              |
-| Neuron     |                                 | Yes          | Markdown           |              |
-| Org Roam   |                                 | Yes          | Org                |              |
-| Neuron     |                                 | Yes          | Markdown           |              |
-| Zettledeft |                                 | Yes          | Org                |              |
-| Dynalist   |                                 | ?            | ?                  |              |
-| Remnote    | https://www.remnote.io/homepage | ?            | ?                  | Built at MIT |
-|------------+---------------------------------+--------------+--------------------+--------------|
+|------------+------------------------------------------+--------------+--------------------+--------------------------------|
+| Tool       | Website                                  | Open Source? | Format             | Notes                          |
+|------------+------------------------------------------+--------------+--------------------+--------------------------------|
+| Workflowy  | https://workflowy.com/                   | No           | Propreitory        |                                |
+| TiddlyWiki | https://tiddlywiki.com/                  | Yes          | HTML               |                                |
+| Athens     | https://github.com/athensresearch/athens | Yes          | Datoms/ Plain text |                                |
+| Neuron     | https://neuron.zettel.page/              | Yes          | Markdown           |                                |
+| Org Roam   | https://org-roam.readthedocs.io/         | Yes          | Org                |                                |
+| Zettledeft | https://github.com/EFLS/zetteldeft       | Yes          | Org                |                                |
+| Dynalist   | https://dynalist.io/                     | No           | ?                  | Exports to html and plain text |
+| Remnote    | https://www.remnote.io/homepage          | ?            | ?                  | Built at MIT                   |
+|------------+------------------------------------------+--------------+--------------------+--------------------------------|
 
 This list is not comprehensive check this resource: https://www.reddit.com/r/Zettelkasten/wiki/softwarecomparison
 
@@ -137,6 +136,11 @@ you cannot create meaningful strides in the furthering of human knowledge buildi
 ** A lot of what I'm collecting is collection of both
 * TODO Post about why our thought process is incompatible with publishing media
 ** Our brain is a graph, but pages are not
+*** Note taking is not a process of dumping information, but a process of organising it
+*** Feynmann said that notes is how he thinks
+*** We write and that gives us some clearity
+*** We write and identify gaps in our knowledge, this leads to things we need to do
+*** We write and share and teach, this helps us connect with brains of others
 ** File names and folder structure doesn't really matter
 ** TODO Files should be treated like regions of brain :protocol:whitepaper:
 *** Like prefrontal cortex is responsible for intellectual processing and the medula oblongate region helps with instincts
