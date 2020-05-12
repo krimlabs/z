@@ -1,10 +1,14 @@
-#+TITLE: Incubator for a Zettlekasten Tool
+#+TITLE: An incubator for a Zettlekasten Tool
 #+AUTHOR: Shivek Khurana
 #+URL: https://github.com/krimlabs/z
 
 #+BEGIN_QUOTE
 ACFYT
 #+END_QUOTE
+
+After being introduced to Roam, I had multiple questions. The idea was powerful but I kept bumping into mental hurdles and improvement ideas.
+This document is my understanding of the Zettlekasten ecosystem. Hope you find it useful.
+
 * Introduction
 Wiki making software are as old as the internet, but a recently launched tool called Roam Research has infused fresh energy in this domain.
 
@@ -128,6 +132,8 @@ Other significant alternatives are:
 | Zettledeft | https://github.com/EFLS/zetteldeft       | Yes          | Org                |                                |
 | Dynalist   | https://dynalist.io/                     | No           | ?                  | Exports to html and plain text |
 | Remnote    | https://www.remnote.io/homepage          | ?            | ?                  | Built at MIT                   |
+| Drift      | https://akhater.github.io/drift/         | Yes          | HTML               | A TW extension with neat UX    |
+| Obsedian   | https://obsidian.md/                     | ?            | MD                 |                                |
 |------------+------------------------------------------+--------------+--------------------+--------------------------------|
 
 This list is not comprehensive check this resource: https://www.reddit.com/r/Zettelkasten/wiki/softwarecomparison
