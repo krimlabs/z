@@ -9,6 +9,7 @@ ACFYT
 After being introduced to Roam, I had multiple questions. The idea was powerful but I kept bumping into mental hurdles and improvement ideas.
 This document is my understanding of the Zettlekasten ecosystem. Hope you find it useful.
 
+
 * Introduction
 Wiki making software are as old as the internet, but a recently launched tool called Roam Research has infused fresh energy in this domain.
 
@@ -76,6 +77,8 @@ Lists are like graphs. Paragraphs don't have any structure, this is something Ro
 ** Conceptual Problems
 *** Discipline
 It needs a certain discipline to write notes in a way that they can become nodes in a knowledge graphs. I have seen multiple people saying that, "I write while asking myself the question that in what context would I like to review this note in future".
+
+**** Do we really need to learn this discipline? Don't we have mature enough NLP techniques to figure out these links automatically?
 
 *** Publishing
 Our thinking is non-linear but the process of consumption of information is linear. We learn using articles and tables.
@@ -165,6 +168,7 @@ It's a better idea to draft a protocol to implement Zettlekasten. If multiple de
 
 * TODO The Z-Protocol
 /Note: Make this more protocoly/
+The Z-protocol is my attempt to iron out the details of the implementation.
 
 - I don't want date based notes or journal entries, our brains don't differentiate between time and space
   - The note taking system should also follow this convention
