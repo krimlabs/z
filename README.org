@@ -3,7 +3,7 @@
 #+URL: https://github.com/krimlabs/z
 
 #+BEGIN_QUOTE
-ACFYT
+The ultimate goal is to have an autocomplete for thoughts.
 #+END_QUOTE
 
 After being introduced to Roam, I had multiple questions. The idea was powerful but I kept bumping into mental hurdles and improvement ideas.
@@ -78,7 +78,9 @@ Lists are like graphs. Paragraphs don't have any structure, this is something Ro
 *** Discipline
 It needs a certain discipline to write notes in a way that they can become nodes in a knowledge graphs. I have seen multiple people saying that, "I write while asking myself the question that in what context would I like to review this note in future".
 
-**** Do we really need to learn this discipline? Don't we have mature enough NLP techniques to figure out these links automatically?
+**** Do we really need to learn this discipline? 
+Don't we have mature enough NLP techniques to figure out these links automatically?
+Similar to what we do with logs, with something light weight like https://github.com/f-prime/fist.
 
 *** Publishing
 Our thinking is non-linear but the process of consumption of information is linear. We learn using articles and tables.
@@ -108,6 +110,7 @@ It's hard if not impossible to take notes on Mobile. It's a fact that I don't ha
 
 *** Merging Entities
 What happens when I decide to rename an entity, or when I make a typo? Will the system notify me? Will the system rename all occurrences.
+
 *** Open source and free?
   This is a tough question. It takes effort to create a software like this, so it should not be free, but I don't want to be locked in.
 
@@ -121,23 +124,39 @@ Ideally, there should be a way to mark some nodes as private.
 *** No emoji support
 I love Notion Emojis.
 
+*** Native App
+An HN thread discussing [[https://news.ycombinator.com/item?id=23211851][Native Apps]] had a [[https://news.ycombinator.com/item?id=23216927][comment]] that caught my attention.
+[[https://news.ycombinator.com/user?id=djhaskin987][dhhaskin987]] said:
+#+begin_quote
+With Moore's law being dead, efficiency is going to get a lot more popular than it has been historically. I think we're going to start seeing an uptick in the popularity of more efficient GUI programs like the ones you describe.
+
+We see new languages like Nim and Crystal with their only value proposition over Python being that they're more efficient.
+
+Similarly, I predict we will see an uptick in popularity of actually native frameworks such as Qt over Electron for the same reason. We may even start seeing wrapper libraries that make these excellent but complicated frameworks more palatable to the Electron crowd, similar to how compiled languages that look like Python or Ruby are getting bigger.
+#+end_quote
+
+This made sense to me. Desktop apps have gotten worse and it's considered OK if apps like Slack lag on 16gb MacBook Pros. 
+
+A notes app, is a tool, like Vim or Emacs or Photoshop. It has to be responsive. It has to be snappy.
+
 * Is Roam a monoply?
 No and yes. There are numerous Zettlekasten tools. But Roam seems to be the best in terms of implementation and ease of use.
 Other significant alternatives are:
-|------------+------------------------------------------+--------------+--------------------+--------------------------------|
-| Tool       | Website                                  | Open Source? | Format             | Notes                          |
-|------------+------------------------------------------+--------------+--------------------+--------------------------------|
-| Workflowy  | https://workflowy.com/                   | No           | Propreitory        |                                |
-| TiddlyWiki | https://tiddlywiki.com/                  | Yes          | HTML               |                                |
-| Athens     | https://github.com/athensresearch/athens | Yes          | Datoms/ Plain text |                                |
-| Neuron     | https://neuron.zettel.page/              | Yes          | Markdown           |                                |
-| Org Roam   | https://org-roam.readthedocs.io/         | Yes          | Org                |                                |
-| Zettledeft | https://github.com/EFLS/zetteldeft       | Yes          | Org                |                                |
-| Dynalist   | https://dynalist.io/                     | No           | ?                  | Exports to html and plain text |
-| Remnote    | https://www.remnote.io/homepage          | ?            | ?                  | Built at MIT                   |
-| Drift      | https://akhater.github.io/drift/         | Yes          | HTML               | A TW extension with neat UX    |
-| Obsedian   | https://obsidian.md/                     | ?            | MD                 |                                |
-|------------+------------------------------------------+--------------+--------------------+--------------------------------|
+|---------------------+------------------------------------------+--------------+--------------------+---------------------------------------|
+| Tool                | Website                                  | Open Source? | Format             | Notes                                 |
+|---------------------+------------------------------------------+--------------+--------------------+---------------------------------------|
+| Workflowy           | https://workflowy.com/                   | No           | Propreitory        |                                       |
+| TiddlyWiki          | https://tiddlywiki.com/                  | Yes          | HTML               |                                       |
+| Athens              | https://github.com/athensresearch/athens | Yes          | Datoms/ Plain text |                                       |
+| Neuron              | https://neuron.zettel.page/              | Yes          | Markdown           |                                       |
+| Org Roam            | https://org-roam.readthedocs.io/         | Yes          | Org                |                                       |
+| Zettledeft          | https://github.com/EFLS/zetteldeft       | Yes          | Org                |                                       |
+| Dynalist            | https://dynalist.io/                     | No           | ?                  | Exports to html and plain text        |
+| Remnote             | https://www.remnote.io/homepage          | ?            | ?                  | Built at MIT                          |
+| Drift               | https://akhater.github.io/drift/         | Yes          | HTML               | A TW extension with neat UX           |
+| Obsedian            | https://obsidian.md/                     | ?            | MD                 |                                       |
+| Notational Velocity | http://notational.net/                   | Yes          | ?                  | This was an inspiration for Deft mode |
+|---------------------+------------------------------------------+--------------+--------------------+---------------------------------------|
 
 This list is not comprehensive check this resource: https://www.reddit.com/r/Zettelkasten/wiki/softwarecomparison
 
