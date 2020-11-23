@@ -159,6 +159,7 @@ Other significant alternatives are:
 | Drift               | https://akhater.github.io/drift/         | Yes          | HTML               | A TW extension with neat UX           |
 | Obsedian            | https://obsidian.md/                     | ?            | MD                 |                                       |
 | Notational Velocity | http://notational.net/                   | Yes          | ?                  | This was an inspiration for Deft mode |
+| Logseq              | https://logseq.com/                      | Yes          | MD                 | Syncs to Github, runs in browser      |
 |---------------------+------------------------------------------+--------------+--------------------+---------------------------------------|
 
 This list is not comprehensive check this resource: https://www.reddit.com/r/Zettelkasten/wiki/softwarecomparison
