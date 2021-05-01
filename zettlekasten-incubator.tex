@@ -1,0 +1,305 @@
+% Created 2020-05-12 Tue 13:19
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Shivek Khurana}
+\date{\today}
+\title{An incubator for a Zettlekasten Tool}
+\hypersetup{
+ pdfauthor={Shivek Khurana},
+ pdftitle={An incubator for a Zettlekasten Tool},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.3 (Org mode 9.3.6)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\begin{quote}
+ACFYT
+\end{quote}
+
+After being introduced to Roam, I had multiple questions. The idea was powerful but I kept bumping into mental hurdles and improvement ideas.
+This document is my understanding of the Zettlekasten ecosystem. Hope you find it useful.
+
+\section{Introduction}
+\label{sec:org9bd3f33}
+Wiki making software are as old as the internet, but a recently launched tool called Roam Research has infused fresh energy in this domain.
+
+Roam Research uses a web based interface to make tree-shaped notes. Similar to S-Expressions.
+
+It also allows you to make links between notes and paragraphs, similar to Luhmann’s Zettelkasten System.
+
+\subsection{What is Luhmann's Zettlekasten?}
+\label{sec:org49f54eb}
+Zettlekasten is a German Word for Slip Box.
+Luhmann's system is an analog technique to link ideas using a special sequence.
+
+\subsection{What is Roam?}
+\label{sec:orgb57fb96}
+
+For me, it seems to be a text editor with two special features:
+\begin{enumerate}
+\item bi-directional links
+\item structured notes in shape of a list (tree/graph) and not free flow text
+\end{enumerate}
+
+These added features lead to a personal knowledge graph. A Google for your brain if you'd call it.
+
+Roam has a cult like following and was founded by \href{https://www.linkedin.com/in/cwhitesullivan/}{Conor White Sullivan}. In a \href{https://www.youtube.com/watch?v=Hw2kJF\_kxjE}{webinar} in December 2019, he claimed that Roam was growin at 20\% per week.
+
+According to \href{https://angel.co/company/roam-research/funding}{AngelList}, Road raised an undisclosed amount of seed funding in January 2020.
+
+\section{Does Zettlekasten make sense?}
+\label{sec:orgd731f22}
+I take notes, a lot of them and I have tried a ton of products. If I see a notes app, I download it.
+
+Over the years, my goto editors have changed from Google Docs to Google Keep to Markdown to Notion to iCloud Notes.
+As of now, I'm trying to switch to org-mode, because Emacs is my primary text editor.
+
+\textbf{The problem with all notes app is that the information exists in silos.}
+
+If I wrote something about a meditation on anger today, I might not be able to recall it afte two months, when I'm meditating on anger again.
+
+Most note-taking apps are page based, however, our brain is a graph. Our brain links information but it's hard
+to link pages in a note taking app (that's perhaps the reason why we have only one search engine). Linking ideas makes it easy to generate new ones.
+
+\emph{I agree to the fact that linking is a trivial operation. But we need to consider the cognitive load of writing markup to link a note.}
+
+\subsection{Note taking is not a process of dumping information, but a process of organising it.}
+\label{sec:org85c42a1}
+
+Feynman's ideas on note taking apply to everyone:
+\begin{itemize}
+\item Writing gives us clearity
+\item Writing helps identify gaps in our knowledge, this leads to things we need to do
+\item Writing helps us share and teach, ie, lets us connect with brains of others
+\end{itemize}
+
+\subsection{Our brain is a graph}
+\label{sec:org7a02506}
+But the current writing systems are just digital versions of paper. File names and folder structures impose meaningless heirarchy to concepts.
+
+Analysing how our brain works, I believe that file and folder names don't matter.
+
+
+\subsubsection{Files should be treated like regions of the brain\hfill{}\textsc{protocol}}
+\label{sec:orgac20cb7}
+
+The prefrontal cortex is responsible for visual processing and the medula oblongata helps with instincts. But neurons in each of these region are
+connected to others. Similarly files should be treated like regions with connections to other regions. This representation is more true to how our brain operates.
+
+\subsubsection{Each file is a collection of neurons}
+\label{sec:org80ff597}
+For example, I have a file named \texttt{learning-emacs.org}. This file has information about Emacs and Org Mode. Over time as this knowledge becomes dense,
+I might want to publish a blog post. This blog post is a new region that refers to this existing region. Over time, a connected graph will emerge.
+
+\subsubsection{Lists and sub lists over paragraphs\hfill{}\textsc{protocol}}
+\label{sec:orgee6064f}
+Lists are like graphs. Paragraphs don't have any structure, this is something Roam gets right. Each list item should record temporal data and properties.
+
+\section{Problems with Zettlekasten Techniques}
+\label{sec:org83ba306}
+\subsection{Conceptual Problems}
+\label{sec:org27a4c6d}
+\subsubsection{Discipline}
+\label{sec:org953b28b}
+It needs a certain discipline to write notes in a way that they can become nodes in a knowledge graphs. I have seen multiple people saying that, "I write while asking myself the question that in what context would I like to review this note in future".
+
+\subsubsection{Publishing}
+\label{sec:org2547ea2}
+Our thinking is non-linear but the process of consumption of information is linear. We learn using articles and tables.
+We learn by isolating the topic in context, ie. by removing connections.
+
+Just like referring back to previous notes helps build context, publishing and getting feed back yields a new perspective.
+But Zettlekasten doesn't make a good fit for publishing. Unlike a paper, you need to deal with a graph of interconnected nodes.
+Where do you start?
+
+\subsubsection{Learning Curve}
+\label{sec:orgac0616c}
+I've developed a mental model of paper based writing. Shifting to another mental model will take some effort.
+
+\subsection{Technical Problems}
+\label{sec:org55d4e71}
+\subsubsection{The pr-org-reitory format}
+\label{sec:org1ed59da}
+Although org-mode is a plain text format, it cant't be used without emacs. Similarly, even if you are able to export your brain from a tool, you can't really use it.
+\textbf{This gives a false sense of openness. And makes a great case for open source.}
+
+If your notes are objects in an s3 bucket, Roam is EC2, Just like emacs is EC2 for org. So a lockin is bound to happen.
+
+\subsubsection{IO}
+\label{sec:org1d0d9fb}
+There is no way to import my existing juice, ie just plain text notes which might not have links
+
+It's hard if not impossible to take notes on Mobile. It's a fact that I don't have a computer all the time, that's probably the reason behind massive popularity of things like Google Keep.
+
+\subsubsection{Costs?}
+\label{sec:org0724f15}
+I pay next to 0 USD for my current setup. Cost was one of the reasons I stopped using Notion.
+
+\subsubsection{Merging Entities}
+\label{sec:orgaaa0eff}
+What happens when I decide to rename an entity, or when I make a typo? Will the system notify me? Will the system rename all occurrences.
+\subsubsection{Open source and free?}
+\label{sec:orgb20187c}
+This is a tough question. It takes effort to create a software like this, so it should not be free, but I don't want to be locked in.
+
+\subsubsection{Security and Privacy}
+\label{sec:orga35cd59}
+This question is two fold, firstly should I have just one database for my personal and public life, because ideas and people overlap or should I have different databases for each, essentially bringing back the problems related to silos.
+
+And if my life is in a graph, how do I ensure the security and privacy of nodes. Something like GPG will not be feasible because digital Zettlekasten essentially needs access to contents of a note, to make links.
+
+Ideally, there should be a way to mark some nodes as private.
+
+\subsubsection{No emoji support}
+\label{sec:orged18fae}
+I love Notion Emojis.
+
+\section{Is Roam a monoply?}
+\label{sec:orgbfefe65}
+No and yes. There are numerous Zettlekasten tools. But Roam seems to be the best in terms of implementation and ease of use.
+Other significant alternatives are:
+\begin{center}
+\begin{tabular}{lllll}
+\hline
+Tool & Website & Open Source? & Format & Notes\\
+\hline
+Workflowy & \url{https://workflowy.com/} & No & Propreitory & \\
+TiddlyWiki & \url{https://tiddlywiki.com/} & Yes & HTML & \\
+Athens & \url{https://github.com/athensresearch/athens} & Yes & Datoms/ Plain text & \\
+Neuron & \url{https://neuron.zettel.page/} & Yes & Markdown & \\
+Org Roam & \url{https://org-roam.readthedocs.io/} & Yes & Org & \\
+Zettledeft & \url{https://github.com/EFLS/zetteldeft} & Yes & Org & \\
+Dynalist & \url{https://dynalist.io/} & No & ? & Exports to html and plain text\\
+Remnote & \url{https://www.remnote.io/homepage} & ? & ? & Built at MIT\\
+Drift & \url{https://akhater.github.io/drift/} & Yes & HTML & A TW extension with neat UX\\
+Obsedian & \url{https://obsidian.md/} & ? & MD & \\
+\hline
+\end{tabular}
+\end{center}
+
+This list is not comprehensive check this resource: \url{https://www.reddit.com/r/Zettelkasten/wiki/softwarecomparison}
+
+\section{Curiosity is the devil}
+\label{sec:org734a6aa}
+\begin{itemize}
+\item Is there a Zettle equivalent for photos?
+\end{itemize}
+\section{Inspirations}
+\label{sec:org20df027}
+\begin{center}
+\begin{tabular}{ll}
+\hline
+Notes & Site\\
+\hline
+Wow! I like how the pages open on top of each other, also the rich previews are kinda neat & \url{https://notes.andymatuschak.org/}\\
+This twitter thread talks about information in context & \url{https://twitter.com/andy\_matuschak/status/1202663202997170176}\\
+Transformational tools for thought & \url{https://numinous.productions/ttft/}\\
+This person is trying something with python & \url{https://beepb00p.xyz/exobrain/exobrain.html}\\
+The term for linking paragraphs is "transclusion" & \url{https://github.com/whacked/transclusion-minor-mode}\\
+Emacs Freex & \url{https://github.com/gregdetre/emacs-freex}\\
+Semantic Syncrony & \url{https://github.com/synchrony/smsn}\\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Will I build a tool?}
+\label{sec:org6e7b526}
+Maybe. I want to sit on this idea for a few months and wait for someone to build something. Athens and Org Roam look promising.
+
+In the end, it's just not enought to make a clone. An high quality open source clone of a mature project is a value addition, according to Anand,
+but if Roam, or Athens or Org Roam end up doing well, I'll be happy to stick to one of them.
+
+It's a better idea to draft a protocol to implement Zettlekasten. If multiple developers and companies can adopt a standard protocol, Zettlekasten will become ubiqious.
+
+\emph{Note: For Self: \textit{<2020-05-10 Sun 21:29> } If you do decide to build a tool, check this please \url{https://unifiedjs.com}} ./
+
+\section{{\bfseries\sffamily TODO} The Z-Protocol}
+\label{sec:org2db3149}
+\emph{Note: Make this more protocoly}
+
+\begin{itemize}
+\item I don't want date based notes or journal entries, our brains don't differentiate between time and space
+\begin{itemize}
+\item The note taking system should also follow this convention
+\begin{itemize}
+\item One single heirarch segregated by meta data
+\item Just like regions of brain constitute a particular function, but indvidual neurons are indistinguishable, all notes should be written down in the same format and the magic should happen in links
+\end{itemize}
+\item However, I'd like the note to have a timestamp as meta
+\item So a file name like <uuid>.md
+\begin{itemize}
+\item With the fields: CREATED\textsubscript{AT}, TITLE and FILETAGS
+\end{itemize}
+\end{itemize}
+\item Org mode is pretty cool, but it's nothing without emacs
+\begin{itemize}
+\item Consider porting a subset of org to js?
+\end{itemize}
+\end{itemize}
+
+\section{Around the web}
+\label{sec:orgd005f71}
+\begin{center}
+\begin{tabular}{lllr}
+\hline
+Date & Title & Url & Ref.\\
+\hline
+\textit{<2020-06-09 Tue>} & How Roam Research analyzes product design and team building & \url{https://news.ycombinator.com/item?id=23117876} & 1\\
+\textit{<2019-12-19 Thu>} & Tiago Forte Interview & \url{https://www.youtube.com/watch?v=Hw2kJF\_kxjE} & 2\\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Thoughts and feedback chamber}
+\label{sec:orge0d9b64}
+There is a lot of energy around the topic. Here's my attempt to collect what I consider relevant.
+\subsection{Ref 1.}
+\label{sec:orgd911fe5}
+\subsubsection{infogulch}
+\label{sec:org0e5491d}
+\begin{quote}
+What I'm missing the most from it is self-hosting, large file support, full point-in-time history, and programmatic access. I want it to be self-hosted because I don't want to lose my "second brain" just because some company couldn't find a viable business model and went belly up 20 years from now. I want large file support so I can put everything in my life in it: pictures, videos, pdfs, web page archive files, source code etc and I don't want to pay uber-\$\$\$ to store huge files in their cloud. And I'd like programmatic access so I can make my own additions. For example, every link/bookmark I add could download the webpage and cache it so I can search its content and so it's not lost when the website changes owners.
+\end{quote}
+
+\subsubsection{gatleon}
+\label{sec:org054d7fa}
+\begin{quote}
+I've been using Roam daily for the last month. What I like about Roam is the markdown, the ease of creating bidirectional links, and the automatic daily notes. The daily notes feature particularly eliminates friction for me. I just start writing.
+What I don't like about Roam is its slow load time. Also writing does not feel snappy enough - if that makes any sense. I feel a slight delay at times between typing a key and seeing the character on screen. Every time that happens I like Roam a little less. I've never experienced that with an app like iaWriter, and as a result, even for all its lack of features, every time I use iaWriter I like it a little more.
+
+I think what Roam is missing for me, besides improving the writing performance, is a weekly email digest somehow summarizing my notes. This could use the bidirectional links and give me a quick overview of what I wrote for the week. That would help improve my memory and be more introspective.
+\end{quote}
+
+\subsubsection{iamben}
+\label{sec:org1f41c06}
+\begin{quote}
+I wish more of these note taking apps were fully encrypted. I know RR can encrypt parts of notes, but it's not the same.
+
+It's probably paranoia, but if I'm journaling my life, business ideas, thoughts on contacts - I just want it to be encrypted on my devices before it goes into the cloud. I want each device to sync and decrypt locally.
+\end{quote}
+
+\subsection{Ref 2}
+\label{sec:orgedd3c47}
+\subsubsection{Patrick Burridge}
+\label{sec:orgf27c627}
+\begin{quote}
+you cannot create meaningful strides in the furthering of human knowledge building upon a closed source tool written by a single opinionated developer.
+\end{quote}
+\end{document}
