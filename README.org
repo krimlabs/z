@@ -6,11 +6,8 @@
 The ultimate goal is to have an autocomplete for thoughts.
 #+END_QUOTE
 
-After being introduced to Roam, I had multiple questions. The idea was powerful but I kept bumping into mental hurdles, so I started writing about it. 
-
-This document is my understanding of the Zettlekasten ecosystem.
-
-Hope you find it useful.
+After being introduced to Roam, I had multiple questions. The idea was powerful but I kept bumping into mental hurdles and improvement ideas.
+This document is my understanding of the Zettlekasten ecosystem. Hope you find it useful.
 
 
 * Introduction
@@ -22,19 +19,19 @@ It also allows you to make links between notes and paragraphs, similar to Luhman
 
 ** What is Luhmann's Zettlekasten?
 Zettlekasten is a German Word for Slip Box.
-Luhmann's system is an analog technique to link ideas using a special sequence of numbers and alphabets.
+Luhmann's system is an analog technique to link ideas using a special sequence.
 
 ** What is Roam?
 
-For me, it seems to be a note taking app with two special features:
+For me, it seems to be a text editor with two special features:
 1. bi-directional links
-2. structured notes in shape of a list (tree/graph) instead of free flow text
+2. structured notes in shape of a list (tree/graph) and not free flow text
 
 These added features lead to a personal knowledge graph. A Google for your brain if you'd call it.
 
-Roam has a cult like following and was founded by [[https://www.linkedin.com/in/cwhitesullivan/][Conor White Sullivan]]. In a [[https://www.youtube.com/watch?v=Hw2kJF_kxjE][webinar]] in December 2019, he claimed that Roam was growing at 20% per week.
+Roam has a cult like following and was founded by [[https://www.linkedin.com/in/cwhitesullivan/][Conor White Sullivan]]. In a [[https://www.youtube.com/watch?v=Hw2kJF_kxjE][webinar]] in December 2019, he claimed that Roam was growin at 20% per week.
 
-According to [[https://angel.co/company/roam-research/funding][AngelList]], Roam raised an undisclosed amount of seed funding in January 2020.
+According to [[https://angel.co/company/roam-research/funding][AngelList]], Road raised an undisclosed amount of seed funding in January 2020.
 
 * Does Zettlekasten make sense?
 I take notes, a lot of them and I have tried a ton of products. If I see a notes app, I download it.
