@@ -154,9 +154,9 @@ Other significant alternatives are:
 | Dynalist            | https://dynalist.io/                     | No           | ?                  | Exports to html and plain text        |
 | Remnote             | https://www.remnote.io/homepage          | ?            | ?                  | Built at MIT                          |
 | Drift               | https://akhater.github.io/drift/         | Yes          | HTML               | A TW extension with neat UX           |
-| Obsedian            | https://obsidian.md/                     | ?            | MD                 |                                       |
+| Obsidian            | https://obsidian.md/                     | ?            | MD                 |                                       |
 | Notational Velocity | http://notational.net/                   | Yes          | ?                  | This was an inspiration for Deft mode |
-| Logseq              | https://logseq.com/                      | Yes          | MD                 | Syncs to Github, runs in browser      |
+| Logseq              | https://logseq.com/                      | Yes (Server side is closed source)          | MD                 | Syncs to Github, runs in browser and desktop apps available for Win/Mac/Linux      |
 |---------------------+------------------------------------------+--------------+--------------------+---------------------------------------|
 
 This list is not comprehensive check this resource: https://www.reddit.com/r/Zettelkasten/wiki/softwarecomparison
